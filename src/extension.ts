@@ -34,8 +34,9 @@ function showInformationMessage() {
 
 // Update status bar item
 function updateStatusBarItem(context: vscode.ExtensionContext):void {
-	statusBarItem.text = 'Ari';
+	statusBarItem.text = '😎 Ari Extension';
 	statusBarItem.tooltip = 'Hello!';
+	
 	statusBarItem.show();
 }
 
